@@ -1,8 +1,8 @@
 # Privacy Policy
 
-**Last Updated:** [Insert Date]
+**Last Updated:** April 30, 2026
 
-Your privacy is important to us. This Privacy Policy explains how [Your Company/Project Name] collects, uses, and protects your information when you use our services.
+Your privacy is important to us. This Privacy Policy explains how Ketrik collects, uses, and protects your information when you use our services.
 
 ### 1. Information We Collect
 *   **Personal Data:** We may collect identifiers such as your name, email address, and contact details when you voluntarily provide them.
@@ -25,4 +25,4 @@ We may employ third-party companies (e.g., analytics providers) to facilitate ou
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
 
 ### 6. Contact Us
-If you have any questions about this Privacy Policy, please contact us at: **[Insert Email/Contact Info]**.
+If you have any questions about this Privacy Policy, please contact us at: **info@ketrik.com**.
