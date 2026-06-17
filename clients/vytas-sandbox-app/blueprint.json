@@ -1,0 +1,29 @@
+{
+	"tenantId": "ketrik-web",
+	"version": "1.0.0",
+	"stores": {
+		"global": {
+			"strategy": "FETCH",
+			"options": {
+				"url": "/registers.json"
+			}
+		},
+
+		"private": {
+			"strategy": "FIRESTORE",
+			"options": {
+				"path": "registers",
+				"isSnapshot": true,
+				"asObject": true
+			}
+		},
+		"profile": {
+			"strategy": "FIRESTORE",
+			"options": {
+				"path": "users/${uid}",
+				"isSnapshot": true,
+				"asObject": false
+			}
+		}
+	}
+}
