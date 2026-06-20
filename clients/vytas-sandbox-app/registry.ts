@@ -41,6 +41,7 @@ export const COMPONENTS = {
 
 	NotificationToolbarAction: dynamic(() => import("@repo/notifications")),
 	DataForm: dynamic(() => import("@repo/forms")),
+	Membership: dynamic(() => import("./components/membership")),
 };
 export const ICONS = {
 	LayoutDashboard,
