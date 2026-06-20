@@ -40,7 +40,7 @@ const tiers = [
 	{
 		title: "Alpha",
 		subheader: "",
-		price: "€20,000",
+		price: "€20,001",
 		billing: "/month",
 		description: "Full-suite access with advanced terminal features",
 		features: [
