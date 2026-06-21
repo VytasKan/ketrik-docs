@@ -13,9 +13,7 @@
 						"href": "/portal",
 						"text": "Get In Touch"
 					},
-					"image1": {
-						"src": "https://next.mui.com/static/images/cards/contemplative-reptile.jpg"
-					},
+					 
 					"subtitle1": {
 						"text": [
 							{
@@ -330,7 +328,7 @@
 						]
 					},
 					"image": {
-						"src": "/screenshot.jpg"
+						"src": "https://www.ketrik.com/screenshot.jpg"
 					},
 					"subtitle1": {
 						"text": [
