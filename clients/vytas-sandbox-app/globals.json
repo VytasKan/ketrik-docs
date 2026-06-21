@@ -5,8 +5,8 @@
 				"hero": {
 					"background": {
 						"style": {
-							"--bg-image": "url(/pattern7.png)",
-							"--bg-image-dark": "url(/pattern8.png)"
+							"--bg-image": "url(https://www.ketrik.com/pattern7.png)",
+							"--bg-image-dark": "url(https://www.ketrik.com/pattern8.png)"
 						}
 					},
 					"button": {
