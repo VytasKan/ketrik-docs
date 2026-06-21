@@ -40,8 +40,7 @@ export const COMPONENTS = {
 	MonacoEditor: dynamic(() => import("@repo/monaco")),
 
 	NotificationToolbarAction: dynamic(() => import("@repo/notifications")),
-	DataForm: dynamic(() => import("@repo/forms")),
-	Membership: dynamic(() => import("./components/membership")),
+	DataForm: dynamic(() => import("@repo/forms"))
 };
 export const ICONS = {
 	LayoutDashboard,
