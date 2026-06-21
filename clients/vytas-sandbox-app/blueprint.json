@@ -5,7 +5,7 @@
 		"global": {
 			"strategy": "FETCH",
 			"options": {
-				"url": "/registers.json"
+				"url": "https://raw.githubusercontent.com/VytasKan/ketrik-docs/refs/heads/main/clients/vytas-sandbox-app/globals.json"
 			}
 		},
 
