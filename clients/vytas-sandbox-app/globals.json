@@ -2229,9 +2229,7 @@
 			"emailVerifyEnabled": true,
 			"mfaRequired": true
 		},
-		"logo": {
-			"src": "https://www.ketrik.com/ketrik-13.png"
-		},
+		"logo":   "https://www.ketrik.com/ketrik-13.png",
 
 		"title": {
 			"main": "Company ",
