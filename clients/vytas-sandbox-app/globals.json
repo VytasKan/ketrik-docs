@@ -2227,6 +2227,9 @@
 			"emailVerifyEnabled": true,
 			"mfaRequired": true
 		},
+		"authProviders": [
+			"google"
+		],
 		"logo":   "https://www.ketrik.com/ketrik-13.png",
 
 		"title": {
