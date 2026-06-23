@@ -2240,7 +2240,7 @@
 		"dashboardUrl": "/dashboard",
 
 		"passwordResetUrl": "/auth/password",
-		"authProviders": ["credentials"],
+		 
 
 		"rememberMeEnabled": true,
 		"remmeberMeLabel": "Remember me",
