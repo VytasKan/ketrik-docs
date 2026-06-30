@@ -2328,12 +2328,75 @@
 								"severity": "error",
 								"validFrom": "2026-05-21T09:30:00Z",
 								"displayAsSingleUntil": "",
-								"validUntil": "2026-07-28T19:30:00Z",
+								"validUntil": "2026-06-30T20:30:00Z",
 								"isDismissible": false
 							},
 							"actionLog": []
 						}
-					]
+					],
+		"metrics": [
+	{
+		"id": "pnl",
+		"category": "system_operational",
+		"title": "Daily PnL",
+		"body": "System snapshot of current daily profit and loss performance.",
+		"status": "unread",
+		"createdAt": "2026-05-22T14:14:00Z",
+		"readAt": null,
+		"actionConfig": { "type": "NONE", "payload": {} },
+		"metadata": {
+			"value": "+$4,210",
+			"intent": "success"
+		},
+		"actionLog": []
+	},
+	{
+		"id": "util",
+		"category": "account_security",
+		"title": "Margin Util",
+		"body": "System snapshot of current margin leverage utilization.",
+		"status": "unread",
+		"createdAt": "2026-05-22T14:14:00Z",
+		"readAt": null,
+		"actionConfig": { "type": "NONE", "payload": {} },
+		"metadata": {
+			"value": "34%",
+			"intent": "info"
+		},
+		"actionLog": []
+	},
+	{
+		"id": "conv",
+		"category": "market_catalyst",
+		"title": "Conversion Rate",
+		"body": "Marketing traffic conversion analytics snapshot.",
+		"status": "unread",
+		"createdAt": "2026-05-22T14:14:00Z",
+		"readAt": null,
+		"actionConfig": { "type": "NONE", "payload": {} },
+		"metadata": {
+			"value": "4.2%",
+			"intent": "success"
+		},
+		"actionLog": []
+	},
+	{
+		"id": "leads",
+		"category": "market_catalyst",
+		"title": "Daily Leads",
+		"body": "Marketing acquisition lead tracking snapshot.",
+		"status": "unread",
+		"createdAt": "2026-05-22T14:14:00Z",
+		"readAt": null,
+		"actionConfig": { "type": "NONE", "payload": {} },
+		"metadata": {
+			"value": "1,420",
+			"intent": "neutral"
+		},
+		"actionLog": []
+	}
+]
+
 
 		
 	}
