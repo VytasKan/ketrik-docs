@@ -24,6 +24,14 @@
 				"isSnapshot": true,
 				"asObject": false
 			}
+		},
+		"notifications": {
+			"strategy": "FIRESTORE",
+			"options": {
+				"path": "channels",
+				"isSnapshot": true,
+				"asObject": false
+			}
 		}
 	}
 }
