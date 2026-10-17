@@ -1,64 +1,32 @@
-"use client";
-import { dynamic } from "@repo/ui";
-import {
-	AreaChart,
-	BarChart3,
-	Bot,
-	Boxes,
-	CheckSquare,
-	Code2,
-	FileCode,
-	Image,
-	Layers,
-	LayoutDashboard,
-	LineChart,
-	List,
-	MessageSquare,
-	MousePointerClick,
-	Table,
-} from "@repo/ui-icons/lucide";
-
 export const COMPONENTS = {
-	Marketing: dynamic(() => import("@repo/marketing")),
+	Marketing: () => import("@repo/marketing"),
 
-	Icons: dynamic(() => import("@repo/features/icons")),
+	LWYieldChart: () => import("@repo/lw-charts/yield-curve-chart"),
+	LWOptionsChart: () => import("@repo/lw-charts/options-chart"),
+	TWWidget: () => import("@repo/lw-charts/widget"),
+	LWChart: () => import("@repo/lw-charts/chart"),
 
-	LWYieldChart: dynamic(() => import("@repo/lw-charts/yield-curve-chart")),
-	LWOptionsChart: dynamic(() => import("@repo/lw-charts/options-chart")),
-	TWWidget: dynamic(() => import("@repo/lw-charts/widget")),
-	LWChart: dynamic(() => import("@repo/lw-charts/chart")),
+	Plotly: () => import("@repo/plotly"),
+	Rechart: () => import("@repo/recharts"),
+	Muichart: () => import("@repo/mui-charts"),
+	GoogleChart: () => import("@repo/google-charts"),
+	Chartjs: () => import("@repo/chartjs"),
 
-	Plotly: dynamic(() => import("@repo/plotly")),
-	Rechart: dynamic(() => import("@repo/recharts")),
-	Muichart: dynamic(() => import("@repo/mui-charts")),
-	GoogleChart: dynamic(() => import("@repo/google-charts")),
-	Chartjs: dynamic(() => import("@repo/chartjs")),
+	ApexChart: () => import("@repo/apex-charts"),
+	ApexChartStreaming: () => import("@repo/apex-charts/apex-content-streaming"),
 
-	Chatbot: dynamic(() => import("@repo/chatbot/chat")),
-	Chat: dynamic(() => import("@repo/chat")),
-	JsonViewer: dynamic(() => import("@repo/jsonviewer/JsonViewerContent")),
-	MonacoEditor: dynamic(() => import("@repo/monaco")),
+	Chatbot: () => import("@repo/chatbot/chat"),
+	KnowledgeChatbot: () => import("@repo/chatbot/knowledge-chat"),
+	KnowledgeChat: () => import("@repo/chatbot/knowledge-chat"),
+	Chat: () => import("@repo/chat"),
+	JsonViewer: () => import("@repo/jsonviewer/JsonViewerContent"),
+	MonacoEditor: () => import("@repo/monaco"),
 
-	NotificationToolbarAction: dynamic(() => import("@repo/notifications")),
-	DataForm: dynamic(() => import("@repo/forms"))
+	NotificationToolbarAction: () => import("@repo/notifications"),
+	DataForm: () => import("@repo/forms"),
 };
-export const ICONS = {
-	LayoutDashboard,
-	LineChart,
-	Table,
-	CheckSquare,
-	MousePointerClick,
-	Image,
-	List,
-	AreaChart,
-	MessageSquare,
-	Bot,
-	Code2,
-	FileCode,
-	Layers,
-	Boxes,
-	BarChart3,
-};
+
+export const ICONS = {};
 
 export const registry = {
 	components: COMPONENTS,
